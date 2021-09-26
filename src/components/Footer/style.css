@@ -1,0 +1,243 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+.corebiz {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
+    width: 40%;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .corebiz {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 2rem 0;
+        width: 100%;
+    }
+}
+
+.logo-icons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .logo-icons {
+        text-align: center;
+    }
+}
+
+.logo-corebiz {
+    width: 115px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .logo-corebiz {
+        width: 200px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.logo-p {
+    font-size: 0.75rem;
+    margin: 12px 0;
+    padding: 0;
+}
+
+.social-icons ul li a img {
+    width: 14px;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .social-icons ul li a img {
+        width: 20px;
+    }
+}
+
+.social-icons ul li a img:hover {
+    opacity: 0.5;
+    transition: color .15s ease-in;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .social-icons {
+        align-self: center;
+    }
+}
+
+.social-icons li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .social-icons li {
+        margin: 0 0.5rem;
+        padding: 0;
+    }
+}
+
+.mini-menu {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .mini-menu {
+        width: 100%;
+    }
+}
+
+.mini-menu ul {
+    margin-top: 0;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .mini-menu ul {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.mini-menu li {
+    list-style: none;
+    border-bottom: 1px solid #000000;
+    padding: 6px 0;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .mini-menu li {
+        width: 90%;
+    }
+}
+
+.mini-menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.mini-menu a:hover {
+    opacity: 0.5;
+    transition: color .15s ease-in;
+}
+
+.countries {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #f4f4f4;
+    height: 100%;
+    width: 100%;
+    margin-left: 30px;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .countries {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 0 2rem 0;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+    .countries h3 {
+        font-size: 2em;
+        margin: 2rem 0 1rem 0;
+    }
+}
+
+.countries > h3 {
+    font-size: 1.5em;
+}
+
+.countries > div > p {
+    font-size: 12px;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .countries > div > p {
+        font-size: 15px;
+    }
+}
+
+
+.brasil {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 20%;
+}
+
+.argentina {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 20%;
+}
+
+.mexico {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 20%;
+}
+
+.chile {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 20%;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .brasil {
+        width: 80%;
+    }
+    
+    .argentina {
+        width: 80%;
+    }
+    
+    .mexico {
+        width: 80%;
+    }
+    
+    .chile {
+        width: 80%;
+    }
+}

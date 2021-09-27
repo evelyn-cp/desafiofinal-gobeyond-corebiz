@@ -1,3 +1,25 @@
+# Desafio Final - Go Beyond - Corebiz
+
+Projeto desenvolvido para o Desafio Final do programa Go Beyond - Corebiz
+
+Visite o projeto: https://desafio3-gobeyond-corebiz.vercel.app/
+
+## Objetivo
+Criar uma home page responsiva usando React baseando-se nos protótipos abaixo:
+- Desktop: https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/
+- Mobile: https://xd.adobe.com/view/e100320d-9539-4cd9-9146-e27f75204e69-b453/screen/02609f96-fe10-4a61-b495-782296f4c193/
+- Exemplo: https://go-beyond-2021-final-challenge.vercel.app/
+
+Para pegar as imagens dinâmicas, utilizar a API: https://jsonplaceholder.typicode.com
+
+## Tecnologias utilizadas
+
+- React.js
+- HTML
+- CSS
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

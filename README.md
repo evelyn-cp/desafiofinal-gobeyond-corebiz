@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para o Desafio Final do programa Go Beyond - Corebiz
 
-Visite o projeto: https://desafio3-gobeyond-corebiz.vercel.app/
+Visite o projeto: https://desafiofinal-gobeyond-corebiz.vercel.app/
 
 ## Objetivo
 Criar uma home page responsiva usando React baseando-se nos protótipos abaixo:

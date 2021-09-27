@@ -12,6 +12,15 @@
     }
 }
 
+@media (min-width: 300px) and (max-width: 979px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+    }
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -20,6 +29,15 @@
     height: 58px;
     padding: 0;
     margin: 0;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
 }
 
 .logo img {
@@ -36,6 +54,20 @@
     align-items: top;
     justify-content: center;
     margin: 0;
+}
+
+@media (min-width: 300px) and (max-width: 979px) {
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .menu li {
+        border-bottom: 1px solid #ffffff;
+        width: 200px;
+    }
 }
 
 .menu li {

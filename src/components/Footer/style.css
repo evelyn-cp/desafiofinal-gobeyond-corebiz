@@ -224,6 +224,25 @@
     width: 20%;
 }
 
+@media (min-width: 980px) and (max-width: 1800px) {
+    .brasil {
+        width: 20%;
+        margin: 0;
+    }
+    
+    .argentina {
+        width: 20%;
+    }
+    
+    .mexico {
+        width: 20%;
+    }
+    
+    .chile {
+        width: 20%;
+    }
+}
+
 @media (min-width: 300px) and (max-width: 979px) {
     .brasil {
         width: 80%;

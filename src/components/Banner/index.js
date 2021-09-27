@@ -1,13 +1,16 @@
 import React from "react";
 import "./style.css";
 import Arrow from "../../images/arrow-right.svg"
+import Thumbnails from "../Thumbnails";
 
 const Banner = () => {
     return (
     <section className="banner">
         <div className="grid-item1">
             <div className="title-banner">
-                <p> a Corebiz atua em toda jornada digital do usuário.</p>
+                <p id="title">
+                    
+                </p>
             </div>
 
             <div className="button-banner">
@@ -17,16 +20,19 @@ const Banner = () => {
                 </button></a>
             </div>
 
-            <div className="api-carrossel">
-
+            <div className="photos">
+                <Thumbnails/>
             </div>
 
         </div>
-        <div class="grid-item2">
-            2
+        <div className="grid-item2">
+            <div>
+                <img id="pictures"/>
+            </div>
         </div>
     </section>
     );
 }
+
 
 export default Banner;
